@@ -1,9 +1,11 @@
+import time
 def sumOfFactors(a):
     factors=[]
     i=1
     while i<a:
         if(a%i==0):
-            factors.append()
+            factors.append(i)
+    i=i+1
     sum=0
     for q in factors:
         sum = sum + q
@@ -18,3 +20,4 @@ while i<=number:
         print(i," is abundant!")
     elif factorSum == i:
         print(i," is PERFECT!!!")
+    time.sleep(0.5)
