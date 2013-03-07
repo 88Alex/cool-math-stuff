@@ -14,3 +14,4 @@ while q<=number:
     else:
         print(q," is not prime.")
     time.sleep(0.5)
+    q=q+1
